@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/averta-blackitalic?styles=17711,17723" rel="stylesheet">
   <link rel="stylesheet" href="./assets/styles/reset.css">
   <link rel="stylesheet" href="./assets/styles/root.css">
   <link rel="stylesheet" href="./assets/styles/main/foreground.css">
@@ -13,6 +16,7 @@
   <link rel="stylesheet" href="./assets/styles/sections/third-section/index.css">
   <link rel="stylesheet" href="./assets/styles/sections/fourth-section/index.css">
   <link rel="stylesheet" href="./assets/styles/sections/fifth-section/index.css">
+  <link rel="stylesheet" href="./assets/styles/sections/sixth-section/index.css">
   <title>Logo Ipsum</title>
 </head>
 
@@ -29,7 +33,13 @@
         <a href="#">Onde Encontrar</a>
         <button class="header-btn">Comprar agora</button>
       </div>
-      <div class="lang-dropdown"></div>
+      <div class="lang-dropdown">
+        <select name="lang" id="lang">
+          <option value="br">BR</option>
+          <option value="en">EN</option>
+          <option value="es">ES</option>
+        </select>
+      </div>
     </header>
   </main>
 
@@ -44,7 +54,7 @@
     <div class="section-button">
       <button>
         <img src="./assets/images/icons/arrow.png" alt="Arrow">
-        <p>Conheça a Logo Ipsum</p>
+        <p>Conheça a <br/>Logo Ipsum</p>
       </button>
     </div>
   </section>
@@ -66,7 +76,7 @@
         <div class="icon-container card2">
           <img src="./assets/images/icons/love.png" alt="Notepad">
         </div>
-        <p>Logo Ipsum Transforma: projetos que fazem bem, bem mais feliz.</p>
+        <p>Matéria-prima direto do pequeno produtor com todo o carinho que você merece.</p>
       </div>
     </div>
 
@@ -76,7 +86,7 @@
         <div class="icon-container card3">
           <img src="./assets/images/icons/recycling.png" alt="Notepad">
         </div>
-        <p>Logo Ipsum Transforma: projetos que fazem bem, bem mais feliz.</p>
+        <p>Reciclar as embalagens Logo Ipsum é um dos ingredientes da nossa receita de sucesso.</p>
       </div>
     </div>
   </section>
@@ -129,10 +139,54 @@
 
     <div class="section-cards">
       <div class="card">
-        <div class="card-img"></div>
+        <img class="card-img" src="./assets/images/fifth-section/culinaria.png" alt="culinaria">
         <h1 class="card-title">Alimentos funcionais: três opções para incluir na dieta</h1>
-        <p class="card-text">Os melhores sabores se misturam em várias publicações imperdíveis. Já conferiu? Fique por dentro de tudo que fazemos: acompanhe projetos que apoiamos, dicas, receitas e muito mais!</p>
+        <p class="card-text">A busca pela boa alimentação é importante como um sinônimo de saúde.</p>
         <button>Continuar Lendo</button>
+      </div>
+
+      <div class="card">
+        <img class="card-img" src="./assets/images/fifth-section/educacao.png" alt="educacao">
+        <h1 class="card-title">Projeto de Alfabetização da Logo Ipsum na Fazenda Alegria</h1>
+        <p class="card-text">É com esse pensamento e engajados no espírito de transformação...</p>
+        <button>Continuar Lendo</button>
+      </div>
+
+      <div class="card">
+        <img class="card-img" src="./assets/images/fifth-section/pasta-de-amendoim.jpg" alt="amendoim">
+        <h1 class="card-title">Pasta de Amendoim: Origem e benefícios</h1>
+        <p class="card-text">Relembrando doces de Festa Junina, as pastas de amendoim tem feito...</p>
+        <button>Continuar Lendo</button>
+      </div>
+
+      <div class="next-button">
+        <button>
+          <img src="./assets/images/icons/play.png" alt="Play">
+        </button>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="sixth-section">
+    <div class="section-text">
+      <div class="insta-icon">
+        <img src="./assets/images/icons/instagram.png" alt="insta-logo">
+      </div>
+      <p>O que faz bem mais feliz é feito pra compartilhar.</p>
+      <p class="hashtag">#logoipsum</p>
+    </div>
+
+    <div class="section-images">
+      <div class="image">
+        <img src="./assets/images/sixth-section/sucrilhos.png" alt="sucrilhos">
+      </div>
+      <div class="image">
+        <img src="./assets/images/sixth-section/sache1.png" alt="sache">
+      </div>
+      <div class="image">
+        <img src="./assets/images/sixth-section/sache2.png" alt="sache">
+      </div>
       </div>
     </div>
   </section>
