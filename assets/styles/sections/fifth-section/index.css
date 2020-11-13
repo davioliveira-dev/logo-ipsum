@@ -1,0 +1,46 @@
+.fifth-section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.fifth-section .section-text {
+  width: 40%;
+  background: #4698CA;
+  padding: 120px 80px;
+}
+
+.fifth-section .section-text h1 {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 45px;
+  color: #FFBF3F;
+}
+
+.fifth-section .section-text p {
+  margin: 35px 0;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  max-width: 80%;
+  color: #FFFFFF;
+}
+
+.fifth-section .section-text button {
+  width: 180px;
+  height: 50px;
+  border: none;
+  background: #FFBF3F;
+  border-radius: 40px;
+}
+
+.fifth-section .section-cards {
+  align-self: center;
+  background-color: white;
+  width: 40%;
+  margin-left: -200px;
+}
+
+/* TODO: ADD FONTS, SETUP VARIABLE COLORS, MAKE CARDS AND MAKE ONE PAGE SCROLL  */
