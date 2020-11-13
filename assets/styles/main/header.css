@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.header .logo {
+  width: 120px;
+  height: 80px;
+  margin: 0 10px;
+}
+
+.header .actions {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin: 0 40px;
+}
+
+.header .actions a {
+  margin: 15px 0;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+.header .actions .header-btn {
+  width: 200px;
+  height: 50px;
+  background-color: #FFFFFF;
+  color: #317CAA;
+  border-radius: 40px;
+  text-transform: uppercase;
+  border: none;
+  padding: 16px 26px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.10em;
+}
+
+.header .lang-dropdown {
+  width: 120px;
+  height: 80px;
+  background-color: blue;
+  margin: 0 10px;
+}
