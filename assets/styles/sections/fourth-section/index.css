@@ -29,6 +29,7 @@
   font-size: 38px;
   line-height: 45px;
   color: #FFBF3F;
+  font-family: 'Averta-Bold', sans-serif;
 }
 
 .fourth-section .section-text p {
@@ -37,6 +38,7 @@
   letter-spacing: 0.03em;
   color: #6A6A57;
   margin-top: -30px;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .fourth-section .section-text button {
@@ -54,4 +56,5 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #FFFFFF;
+  font-family: 'Averta-Bold', sans-serif;
 }
