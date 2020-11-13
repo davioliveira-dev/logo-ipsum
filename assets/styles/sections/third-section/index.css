@@ -1,0 +1,65 @@
+.third-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  max-height: 650px;
+}
+
+.third-section .section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 400px;
+}
+
+.third-section .section-text .title {
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 45px;
+  color: #FF5E0F;
+  margin-bottom: 30px;
+}
+
+.third-section .section-text p {
+  margin: 15px 0;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: #4F4F40;
+}
+
+.third-section .section-text button {
+  margin-top: 30px;
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+  background: #FF5E0F;
+  color: #fff;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+
+.third-section .section-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+.third-section .section-image button {
+  background-color: #FF5E0F;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+  margin-right: -40px;
+  border: none;
+  z-index: 0;
+  box-shadow: 0px 22px 80px rgba(29, 27, 24, 0.07), 0px 22.2437px 55.4997px rgba(29, 27, 24, 0.0771599), 0px 23.2607px 48.4373px rgba(29, 27, 24, 0.0756864), 0px 24.6609px 44.6163px rgba(29, 27, 24, 0.0644444), 0px 25.9607px 41.3692px rgba(29, 27, 24, 0.0443511), 0px 26.3799px 36.8572px rgba(29, 27, 24, 0.0210201), 0px 24.0804px 28.1652px rgba(29, 27, 24, 0.00397918);
+}
