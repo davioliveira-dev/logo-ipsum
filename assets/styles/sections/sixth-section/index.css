@@ -1,0 +1,44 @@
+.sixth-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 110px;
+}
+
+.sixth-section .section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 360px;
+  height: 270px;
+  padding: 30px 80px;
+}
+
+.sixth-section .section-text p {
+  font-family: 'Averta-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 45px;
+  color: #606395;
+}
+
+.sixth-section .section-text .hashtag {
+  font-size: 19px;
+}
+
+.sixth-section .section-images {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.sixth-section .section-images .image {
+  height: 270px;
+  width: 270px;
+  margin: 0 20px;
+}
+
+.section-images .image img {
+  width: 100%;
+  max-width: 270px;
+}
