@@ -42,7 +42,14 @@
   background-color: #78BE21;
 }
 
+.seventh-section .section-buttons img {
+  display: inline-flex;
+  vertical-align: top;
+}
+
 .seventh-section .section-buttons p {
+  display: inline-block;
+  margin-top: 3px;
   font-family: 'Averta-Bold', sans-serif;
   font-weight: bold;
   font-size: 14px;
