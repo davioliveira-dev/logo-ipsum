@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100vw;
+  width: 100%;
   margin: 10px 0;
   align-items: center;
 }
@@ -16,13 +16,13 @@
 
 .header .actions {
   display: flex;
-  width: 50%;
+  width: 60%;
   justify-content: space-between;
   margin: 0 40px;
 }
 
 .header .actions a {
-  margin: 15px 0;
+  margin: 15px 10px;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
@@ -49,7 +49,7 @@
 
 .header .lang-dropdown {
   width: 120px;
-  margin-left: -50px;
+  margin-left: -10px;
 }
 
 .header .lang-dropdown select {
@@ -64,4 +64,34 @@
 
 .header .lang-dropdown select::after {
   background-color: #78BE21;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .header .actions {
+    width: 70%;
+    margin: 0 20px;
+  }
+
+  .header .lang-dropdown {
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .header .logo, .header .actions, .header .lang-dropdown {
+    justify-self: center;
+  }
+
+  .header .actions {
+    width: 100%;
+  }
 }
