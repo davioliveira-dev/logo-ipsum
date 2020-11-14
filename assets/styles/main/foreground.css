@@ -4,7 +4,7 @@
   left: 0px;
   top: 0px;
   overflow-x: hidden;
-  background-image: url('../../images/main/foreground.png'), linear-gradient(180deg, #02031a 0%, rgba(2, 2, 15, 0.616) 21.83%, rgba(0, 1, 4, 0.541) 45.62%, rgba(0, 0, 0, 0) 57.12%);
+  background-image: url('../../images/main/foreground.png'), linear-gradient(180deg, #02031a 0%, rgba(2, 2, 15, 0.616) 21.83%, rgba(0, 1, 4, 0.541) 45.62%, rgba(0, 0, 0, 0.671) 57.12%);
   background-size: cover;
   background-repeat: no-repeat;
 }

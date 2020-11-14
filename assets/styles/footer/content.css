@@ -1,0 +1,140 @@
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  background: #012765;
+  padding-bottom: 50px;
+}
+
+.footer-content .content-links {
+  height: 620px;
+  padding: 60px;
+}
+
+.footer-content .content-links p, a {
+  font-family: 'Averta-Regular';
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  color: #56CCF2;
+  margin: 30px 0px;
+  display: block;
+  text-decoration: underline;
+}
+
+.footer-content .content-links p:first-of-type {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-content .content-links p:last-of-type {
+  color: #8AA6D5;
+}
+
+.footer-content .content-contact {
+  height: 620px;
+  padding: 70px 0;
+}
+
+.footer-content .content-contact > h1 {
+  font-family: 'Averta-Bold';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.footer-content .content-contact .phone,
+.footer-content .content-contact .email {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  margin: 10px -12px;
+}
+
+.footer-content .content-contact .email {
+  width: 300px;
+}
+
+.content-contact .phone p, .content-contact .email p {
+  font-family: 'PT Sans';
+  font-size: 16px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #56CCF2;
+}
+
+.footer-content .content-contact a {
+  margin-left: 20px;
+  font-family: 'PT Sans';
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+}
+
+.footer-content .content-contact h1 {
+  font-family: 'Averta-Bold';
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 23px;
+  color: #F8F9FA;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.footer-content .content-contact p {
+  font-family: 'PT Sans';
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: #8AA6D5;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-content .content-contact button {
+  width: 230px;
+  height: 60px;
+  margin: 20px;
+  border: none;
+  border-radius: 40px;
+  background: #56CCF2;
+  font-family: 'Averta-Bold';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #03257E;
+}
+
+.footer-content .content-partners {
+  height: 620px;
+  padding: 70px 0;
+}
+
+.footer-content .content-partners h1 {
+  font-family: 'Averta-Bold';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #F8F9FA;
+}
+
+.footer-content .content-partners .social-media {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.footer-content .content-partners .last-img {
+  margin: 40px 0;
+}

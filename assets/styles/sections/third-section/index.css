@@ -1,7 +1,7 @@
 .third-section {
   display: flex;
   justify-content: space-around;
-  padding: 80px;
+  padding: 50px;
   max-height: 650px;
 }
 
@@ -17,12 +17,12 @@
   font-weight: bold;
   line-height: 45px;
   color: #FF5E0F;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   font-family: 'Averta-Bold', sans-serif;
 }
 
 .third-section .section-text p {
-  margin: 15px 0;
+  margin: 5px 0;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
@@ -31,7 +31,7 @@
 }
 
 .third-section .section-text button {
-  margin-top: 30px;
+  margin-top: 20px;
   border: none;
   width: 150px;
   height: 50px;

@@ -11,5 +11,6 @@ body {
 	width: 100vw;
 }
 
-/* 
-definir variaveis de cor e fonte aqui */
+* {
+	box-sizing: border-box;
+}

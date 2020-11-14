@@ -1,0 +1,123 @@
+.seventh-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+}
+
+.seventh-section .section-title h1 {
+  font-family: 'Averta-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 45px;
+  color: #78BE21;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.seventh-section .section-text p {
+  font-family: 'PT Sans';
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #6A6A57;
+}
+
+.seventh-section .section-buttons {
+  margin: 20px;
+}
+
+.seventh-section .section-buttons button {
+  margin: 0 30px;
+  width: 200px;
+  height: 40px;
+  border: 1px solid #78BE21;
+  background: none;
+  border-radius: 20px;
+}
+
+.seventh-section .section-buttons button.primary {
+  background-color: #78BE21;
+}
+
+.seventh-section .section-buttons p {
+  font-family: 'Averta-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #78BE21;
+}
+
+.seventh-section .section-buttons p.primary {
+  color: #fff;
+}
+
+.seventh-section .section-images {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.seventh-section .section-images .prev-btn,
+.seventh-section .section-images .next-btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #78BE21;
+  margin-top: 110px;
+}
+
+.section-images .next-btn {
+  right: 30px;
+}
+
+.section-images .prev-btn img, 
+.section-images .next-btn img {
+  z-index: 1;
+}
+
+.section-images .images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-images .images .image {
+  width: 285px;
+  height: 285px;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.images .image img {
+  width: 100%;
+  max-width: 285px;
+}
+
+.images .image p {
+  margin: 10px;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #6A6A57;
+}
+
+.images .image p.name {
+  font-family: 'Averta-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 23px;
+  color: #78BE21;
+}
