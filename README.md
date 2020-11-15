@@ -10,6 +10,6 @@ desse projeto em específico, principalmente o verde, pois tenho daltonismo (nã
 ---
 <h1>Tempo levado para executar o projeto!</h1>
 
-<img src="./finish.png">
+![alt text](https://github.com/davioliveira-dev/logo-ipsum/blob/main/finish.PNG?raw=true)
 
 PS: Desconte cerca de 20 a 30 min, meu computador andou travando muito, após formatar não tive esses problemas.
