@@ -2,13 +2,12 @@
   display: flex;
   justify-content: space-around;
   padding: 50px;
-  max-height: 650px;
 }
 
 .third-section .section-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   max-width: 400px;
 }
 
@@ -31,7 +30,7 @@
 }
 
 .third-section .section-text button {
-  margin-top: 20px;
+  margin: 20px 0;
   border: none;
   width: 150px;
   height: 50px;
@@ -57,11 +56,38 @@
 .third-section .section-image button {
   background-color: #FF5E0F;
   border-radius: 50%;
-  width: 100px;
+  min-width: 100px;
   height: 100px;
   margin-left: 30px;
   margin-right: -40px;
   border: none;
   z-index: 0;
   box-shadow: 0px 22px 80px rgba(29, 27, 24, 0.07), 0px 22.2437px 55.4997px rgba(29, 27, 24, 0.0771599), 0px 23.2607px 48.4373px rgba(29, 27, 24, 0.0756864), 0px 24.6609px 44.6163px rgba(29, 27, 24, 0.0644444), 0px 25.9607px 41.3692px rgba(29, 27, 24, 0.0443511), 0px 26.3799px 36.8572px rgba(29, 27, 24, 0.0210201), 0px 24.0804px 28.1652px rgba(29, 27, 24, 0.00397918);
+}
+
+.third-section .section-image img.athletes {
+  width: 100%;
+  max-width: 605px;
+}
+
+@media(max-width: 1024px) {
+  .third-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .third-section .section-image {
+    justify-content: center;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .third-section .section-image button {
+    position: absolute;
+    min-width: 65px;
+    height: 65px;
+    margin-left: -30px;
+  }
+
 }

@@ -4,7 +4,7 @@
   justify-content: space-between;
   background-color: #03257E;
   padding: 70px 50px;
-  width: 100vw;
+  width: 100%;
 }
 
 .footer-form  > p {
@@ -54,4 +54,11 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #03257E;
+}
+
+@media (max-width: 1024px) {
+  .footer-form {
+    flex-direction: column;
+    justify-content: center;
+  }
 }

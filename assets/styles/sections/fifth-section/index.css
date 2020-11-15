@@ -1,6 +1,6 @@
 .fifth-section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
   margin-top: 70px;
   margin-bottom: 80px;
@@ -13,6 +13,8 @@
 }
 
 .fifth-section .section-text h1 {
+  max-width: 320px;
+  margin-right: 40px;
   font-weight: bold;
   font-size: 38px;
   line-height: 45px;
@@ -21,12 +23,12 @@
 }
 
 .fifth-section .section-text p {
+  max-width: 80%;
   margin: 35px 0;
-  width: 450px;
+  margin-right: 40px;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
-  max-width: 80%;
   color: #FFFFFF;
   font-family: 'PT Sans', sans-serif;
 }
@@ -47,9 +49,10 @@
 }
 
 .fifth-section .section-cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-self: center;
-  margin-left: -190px;
+  margin-left: -120px;
   margin-right: 30px;
 }
 
@@ -105,15 +108,56 @@
   font-family: 'Averta-Bold', sans-serif;
 }
 
-.section-cards .next-button button {
-  position: absolute;
-  background-color: #FF5E0F;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  right: -30px;
-  margin-top: 140px;
-  border: none;
-  z-index: 0;
-  box-shadow: 0px 22px 80px rgba(29, 27, 24, 0.07), 0px 22.2437px 55.4997px rgba(29, 27, 24, 0.0771599), 0px 23.2607px 48.4373px rgba(29, 27, 24, 0.0756864), 0px 24.6609px 44.6163px rgba(29, 27, 24, 0.0644444), 0px 25.9607px 41.3692px rgba(29, 27, 24, 0.0443511), 0px 26.3799px 36.8572px rgba(29, 27, 24, 0.0210201), 0px 24.0804px 28.1652px rgba(29, 27, 24, 0.00397918);
+@media (max-width: 1200px) {
+  .fifth-section .section-cards {
+    margin-left: -80px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .fifth-section .section-text {
+    width: 70%;
+    padding: 30px;
+    margin: 50px 0;
+  }
+
+  .fifth-section .section-cards {
+    margin-left: -40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fifth-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    padding: 180px 0;
+  }
+
+  .fifth-section .section-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+  }
+
+  .fifth-section .section-text h1, 
+  .fifth-section .section-text p {
+    margin: 25px 0;
+    max-width: auto;
+  }
+
+  .fifth-section .section-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .fifth-section {
+    margin: 20px 0;
+    padding: 20px 0;
+  }
 }

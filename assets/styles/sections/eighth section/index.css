@@ -1,10 +1,10 @@
 .eighth-section {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: #F2F2EE;
   margin-top: 100px;
-  padding: 100px;
+  padding: 80px;
 }
 
 .eighth-section .section-text {
@@ -49,4 +49,39 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #FF7F41;
+}
+
+.eighth-section .section-image {
+  height: 465px;
+  margin-left: 20px;
+}
+
+.eighth-section .section-image img {
+  max-width: 595px;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .eighth-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .eighth-section .section-text {
+    width: 80%;
+  }
+
+  .eighth-section .section-text p {
+    width: auto;
+    margin: 20px 0;
+  }
+
+  .eighth-section .section-image {
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+  }
 }

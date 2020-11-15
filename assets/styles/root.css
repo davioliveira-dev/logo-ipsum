@@ -1,5 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	display: flex;
+	box-sizing: border-box;
 	flex: 1;
 	flex-direction: column;
 	justify-content: center;
@@ -9,8 +18,4 @@ body {
 	overflow-x: hidden;
 	overflow-y: scroll;
 	width: 100vw;
-}
-
-* {
-	box-sizing: border-box;
 }

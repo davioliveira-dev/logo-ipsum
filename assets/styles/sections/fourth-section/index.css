@@ -1,12 +1,14 @@
 .fourth-section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
+  margin: 50px 0;
+  padding: 0 90px;
   max-height: 650px;
 }
 
 .fourth-section .section-image {
-  width: 50%;
+  width: 60%;
   display: flex;
   align-items: center;
 }
@@ -18,9 +20,10 @@
 .fourth-section .section-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  margin-left: -200px;
+  justify-content: space-around;
   max-width: 500px;
+  min-height: 345px;
+  margin-bottom: 50px;
 }
 
 .fourth-section .section-text .title {
@@ -29,6 +32,7 @@
   font-size: 38px;
   line-height: 45px;
   color: #FFBF3F;
+  margin: 5px 0;
   font-family: 'Averta-Bold', sans-serif;
 }
 
@@ -42,7 +46,6 @@
 }
 
 .fourth-section .section-text button {
-  margin-left: 30px;
   background: #FFBF3F;
   border-radius: 40px;
   border: 0;
@@ -57,4 +60,36 @@
   text-transform: uppercase;
   color: #FFFFFF;
   font-family: 'Averta-Bold', sans-serif;
+}
+
+
+@media (max-width: 1024px) {
+  .fourth-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 100px 0;
+  }
+
+  .fourth-section .section-image,
+  .fourth-section .section-text {
+    width: 100%;
+    justify-self: center;
+  }
+
+  .fourth-section .section-text {
+    min-height: auto;
+    max-width: auto;
+    margin-bottom: 0;
+    justify-content: space-between;
+  }
+
+  .fourth-section .section-text .title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .fourth-section .section-text p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
 }

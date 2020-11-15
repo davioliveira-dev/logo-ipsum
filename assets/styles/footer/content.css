@@ -1,4 +1,5 @@
 .footer-content {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
@@ -137,4 +138,26 @@
 
 .footer-content .content-partners .last-img {
   margin: 40px 0;
+}
+
+@media (max-width: 1024px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-content .content-links,
+  .footer-content .content-contact {
+    height: auto;
+  }
+
+  .footer-content .content-links,
+  .footer-content .content-contact,
+  .footer-content .content-partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+  }
 }
